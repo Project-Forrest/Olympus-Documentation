@@ -9,6 +9,15 @@ a {
     color: #000;
 }
 
+p {
+    max-width: 70ch;
+    font-size: 1.35rem;
+}
+
+span {
+    font-size: 1.35rem;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -16,4 +25,27 @@ section {
     padding: 1rem;
 
     gap: 1rem;
+}
+
+.content-button {
+    color: #fff;
+    padding: 1%;
+    font-size: 1.5rem;
+    background-color: #2c2c2c;
+}
+
+.content-button:hover {
+    background-color: #000000;
+
+}
+
+.transition-button {
+    font-size: 2rem;
+    padding: 1%;
+    border: solid #000 1px;
+}
+
+.transition-button:hover {
+    color: #fff;
+    background-color: #000
 }
